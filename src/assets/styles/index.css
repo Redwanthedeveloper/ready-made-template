@@ -606,6 +606,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: 3rem;
 }
 
+.ml-auto {
+  margin-left: auto;
+}
+
 .block {
   display: block;
 }
@@ -763,6 +767,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .gap-2 {
   gap: 0.5rem;
+}
+
+.justify-self-end {
+  justify-self: end;
 }
 
 .overflow-hidden {
@@ -1177,8 +1185,20 @@ img {
     height: 400px;
   }
 
+  .md\:max-h-\[400px\] {
+    max-height: 400px;
+  }
+
   .md\:w-\[400px\] {
     width: 400px;
+  }
+
+  .md\:w-full {
+    width: 100%;
+  }
+
+  .md\:max-w-\[400px\] {
+    max-width: 400px;
   }
 
   .md\:grid-cols-2 {
@@ -1333,6 +1353,11 @@ img {
 
   .xl\:-bottom-16 {
     bottom: -4rem;
+  }
+
+  .xl\:mx-\[220px\] {
+    margin-left: 220px;
+    margin-right: 220px;
   }
 
   .xl\:block {

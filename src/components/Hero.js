@@ -7,7 +7,7 @@ import roundShape from "../assets/images/demo.png";
 const Hero = () => {
   return (
     <>
-      <div className="px-4 2xl:mx-[220px]">
+      <div className="px-4 xl:mx-[220px]">
         <div className="flex flex-col-reverse lg:flex-row items-center justify-between gap-8 2xl:gap-44 lg:py-20 xl:py-0">
           <div className="hero__left flex-1">
             <h3 className="text-center lg:text-left font-heading text-3xl leading-[28px] text-white pb-4">
@@ -34,7 +34,7 @@ const Hero = () => {
             </div>
           </div>
           <div className="hero__right relative flex-1">
-            <div className="2xl:max-h-[752px] 2xl:max-w-[752px] 2xl:w-full 2xl:h-full md:h-[400px] md:w-[400px] bg-[#d7d7d7] rounded-full border-[#2b4a6f] border-[10px] overflow-hidden">
+            <div className="2xl:max-h-[752px] 2xl:max-w-[752px] 2xl:w-full 2xl:h-full md:h-[400px] md:w-[400px] ml-auto bg-[#d7d7d7] rounded-full border-[#2b4a6f] border-[10px] overflow-hidden">
               <img src={roundShape} alt="" className="max-w-full w-full" />
             </div>
             <div className="hidden xl:block absolute 2xl:bottom-0 2xl:right-0 md:-bottom-12 md:-right-28">
